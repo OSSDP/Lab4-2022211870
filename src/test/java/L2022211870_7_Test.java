@@ -22,7 +22,7 @@ public class L2022211870_7_Test {
         // 测试用例 1: 正常情况
         String s1 = "dcab";
         List<List<Integer>> pairs1 = Arrays.asList(Arrays.asList(0, 3), Arrays.asList(1, 2));
-        assertEquals("abcd", solution.smallestStringWithSwaps(s1, pairs1));
+        assertEquals("bacd", solution.smallestStringWithSwaps(s1, pairs1));
 
         // 测试用例 2: 多次交换
         String s2 = "dcab";
